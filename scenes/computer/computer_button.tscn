@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://w35x6u06acf8"]
+
+[ext_resource type="Texture2D" uid="uid://c8urix8r1mxpp" path="res://assets/sprites/computer/file.png" id="1_p4wwy"]
+[ext_resource type="Script" path="res://scenes/computer/computer_button.gd" id="2_mcwar"]
+[ext_resource type="Theme" uid="uid://dk2qnhibyhor0" path="res://assets/theme/theme.tres" id="3_wr3y7"]
+[ext_resource type="FontFile" uid="uid://cd77rv015ju3x" path="res://assets/fonts/pansyhand.ttf" id="4_06kg7"]
+
+[node name="ComputerButton" type="Button"]
+anchors_preset = -1
+anchor_right = 0.053
+anchor_bottom = 0.111
+offset_right = 0.079998
+offset_bottom = 0.0399971
+icon = ExtResource("1_p4wwy")
+flat = true
+script = ExtResource("2_mcwar")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -36.0
+offset_top = 40.0
+offset_right = 34.0
+offset_bottom = 93.0
+size_flags_vertical = 1
+theme = ExtResource("3_wr3y7")
+theme_override_fonts/font = ExtResource("4_06kg7")
+text = "agshdjasdhgjasdhahds"
+horizontal_alignment = 1
+autowrap_mode = 3

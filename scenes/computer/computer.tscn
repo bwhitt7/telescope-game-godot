@@ -1,0 +1,326 @@
+[gd_scene load_steps=14 format=3 uid="uid://dsorssjrrrqsl"]
+
+[ext_resource type="Script" path="res://scenes/computer/computer.gd" id="1_fl3mt"]
+[ext_resource type="Texture2D" uid="uid://cgtoaoqg8ac5f" path="res://assets/sprites/computer/desktop.png" id="2_el6qb"]
+[ext_resource type="PackedScene" uid="uid://w35x6u06acf8" path="res://scenes/computer/computer_button.tscn" id="3_ap3p0"]
+[ext_resource type="Texture2D" uid="uid://ddmbddfo10ck5" path="res://assets/sprites/computer/exit.png" id="4_jjfg6"]
+[ext_resource type="Texture2D" uid="uid://couwaj1oc1hjl" path="res://assets/sprites/computer/folder.png" id="5_8gww0"]
+[ext_resource type="Texture2D" uid="uid://cu7ct8w2wtn7a" path="res://assets/sprites/computer/notepad.png" id="6_3llgq"]
+[ext_resource type="Script" path="res://scenes/computer/Notepad.gd" id="7_b8aiu"]
+[ext_resource type="Theme" uid="uid://dk2qnhibyhor0" path="res://assets/theme/theme.tres" id="7_mdu4f"]
+[ext_resource type="FontFile" uid="uid://cd77rv015ju3x" path="res://assets/fonts/pansyhand.ttf" id="8_6jie4"]
+[ext_resource type="Texture2D" uid="uid://d0h8jmn0ffi5e" path="res://pictures/screenshot.png" id="9_j0tsu"]
+[ext_resource type="Script" path="res://scenes/computer/PictureInput.gd" id="11_3cywa"]
+[ext_resource type="Texture2D" uid="uid://codeoovkpq4l3" path="res://pictures/img_Zaurak.png" id="12_7tyur"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8amku"]
+
+[node name="Computer" type="Node2D"]
+script = ExtResource("1_fl3mt")
+
+[node name="Desktop" type="Sprite2D" parent="."]
+texture = ExtResource("2_el6qb")
+centered = false
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Exit" parent="Control" instance=ExtResource("3_ap3p0")]
+layout_mode = 1
+offset_top = 316.0
+offset_right = 31.88
+offset_bottom = 351.56
+icon = ExtResource("4_jjfg6")
+
+[node name="Pictures" parent="Control" instance=ExtResource("3_ap3p0")]
+layout_mode = 1
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 75.88
+offset_bottom = 75.56
+icon = ExtResource("5_8gww0")
+label = "./pictures"
+
+[node name="TurnIn" parent="Control" instance=ExtResource("3_ap3p0")]
+layout_mode = 1
+offset_left = 34.0
+offset_top = 162.0
+offset_right = 65.88
+offset_bottom = 197.56
+label = "turn_in_data.exe"
+
+[node name="Notepad" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = 462.0
+offset_top = 20.0
+offset_right = 616.0
+offset_bottom = 172.0
+texture = ExtResource("6_3llgq")
+script = ExtResource("7_b8aiu")
+
+[node name="ItemList" type="ItemList" parent="Control/Notepad"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 35.0
+offset_right = 147.0
+offset_bottom = 111.0
+focus_mode = 0
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/panel = SubResource("StyleBoxEmpty_8amku")
+
+[node name="Label" type="Label" parent="Control/Notepad"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 5.0
+offset_right = 147.0
+offset_bottom = 35.0
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Targets"
+
+[node name="FileExplorer" type="ColorRect" parent="Control"]
+layout_mode = 2
+offset_left = 78.0
+offset_top = 50.0
+offset_right = 344.0
+offset_bottom = 262.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/FileExplorer"]
+layout_mode = 0
+offset_right = 266.0
+offset_bottom = 212.0
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/FileExplorer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Control/FileExplorer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "C://desktop/pictures"
+
+[node name="XButton" type="Button" parent="Control/FileExplorer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "X"
+flat = true
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/FileExplorer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Control/FileExplorer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="TabContainer" type="TabContainer" parent="Control/FileExplorer/VBoxContainer/MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TurnInWindow" type="ColorRect" parent="Control"]
+visible = false
+layout_mode = 2
+offset_left = 355.0
+offset_top = 95.0
+offset_right = 621.0
+offset_bottom = 307.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/TurnInWindow"]
+layout_mode = 0
+offset_right = 266.0
+offset_bottom = 212.0
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/TurnInWindow/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Control/TurnInWindow/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "Turn In Work"
+
+[node name="XButton" type="Button" parent="Control/TurnInWindow/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "X"
+flat = true
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/TurnInWindow/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Control/TurnInWindow/VBoxContainer/MarginContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="Control/TurnInWindow/VBoxContainer/MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 3
+
+[node name="PictureInput" type="PanelContainer" parent="Control/TurnInWindow/VBoxContainer/MarginContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("11_3cywa")
+
+[node name="TextureRect" type="TextureRect" parent="Control/TurnInWindow/VBoxContainer/MarginContainer/ScrollContainer/GridContainer/PictureInput"]
+layout_mode = 2
+texture = ExtResource("12_7tyur")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="Control/TurnInWindow/VBoxContainer/MarginContainer/ScrollContainer/GridContainer/PictureInput"]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("7_mdu4f")
+text = "Image"
+horizontal_alignment = 1
+
+[node name="MarginContainer3" type="MarginContainer" parent="Control/TurnInWindow/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Control/TurnInWindow/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+theme = ExtResource("7_mdu4f")
+text = "Upload to Server"
+
+[node name="TurnInWindow2" type="ColorRect" parent="Control"]
+layout_mode = 2
+offset_left = 365.0
+offset_top = 186.0
+offset_right = 591.0
+offset_bottom = 277.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/TurnInWindow2"]
+layout_mode = 0
+offset_right = 226.0
+offset_bottom = 91.0
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/TurnInWindow2/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Control/TurnInWindow2/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "Turn In Work"
+
+[node name="XButton" type="Button" parent="Control/TurnInWindow2/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "X"
+flat = true
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/TurnInWindow2/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Button" type="Button" parent="Control/TurnInWindow2/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("7_mdu4f")
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "Upload Pictures to Server"
+
+[node name="Picture" type="ColorRect" parent="Control"]
+visible = false
+layout_mode = 0
+offset_left = 293.0
+offset_top = 131.0
+offset_right = 616.0
+offset_bottom = 334.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/Picture"]
+layout_mode = 0
+offset_right = 323.0
+offset_bottom = 203.0
+theme_override_constants/separation = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/Picture/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = 10
+
+[node name="Label" type="Label" parent="Control/Picture/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "Picture"
+
+[node name="XButton2" type="Button" parent="Control/Picture/VBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme = ExtResource("7_mdu4f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_6jie4")
+text = "X"
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="Control/Picture/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("9_j0tsu")
+expand_mode = 5
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 548.0
+offset_top = 325.0
+offset_right = 588.0
+offset_bottom = 351.0
+text = "Day"
+
+[connection signal="button_down" from="Control/Exit" to="." method="_on_exit_button_down"]
+[connection signal="button_down" from="Control/Pictures" to="." method="_on_pictures_button_down"]
+[connection signal="button_down" from="Control/FileExplorer/VBoxContainer/MarginContainer2/XButton" to="." method="_on_x_button_button_down"]
+[connection signal="button_down" from="Control/TurnInWindow/VBoxContainer/MarginContainer2/XButton" to="." method="_on_x_button_button_down"]
+[connection signal="button_down" from="Control/TurnInWindow2/VBoxContainer/MarginContainer2/XButton" to="." method="_on_x_button_button_down"]
+[connection signal="button_down" from="Control/TurnInWindow2/VBoxContainer/MarginContainer/Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="Control/Picture/VBoxContainer/MarginContainer/XButton2" to="." method="_on_x_button_2_button_down"]

@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://ditffgrgj8fye"]
+
+[ext_resource type="Texture2D" uid="uid://b5ugnfxre2err" path="res://assets/sprites/star.png" id="1_5wlet"]
+[ext_resource type="Script" path="res://scenes/player.gd" id="1_qlje1"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m6lh1"]
+radius = 17.0
+height = 42.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bbrmh"]
+size = Vector2(86, 88)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_qlje1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_5wlet")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_m6lh1")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="ActionFinder" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_bbrmh")

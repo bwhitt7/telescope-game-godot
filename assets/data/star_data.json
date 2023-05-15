@@ -1,0 +1,1678 @@
+{
+  "simbad": [
+	{
+	  "identifier": "*tetCen",
+	  "typ": "PM*",
+	  "ra": 211.67061468,
+	  "dec": -36.36995474,
+	  "plx": "55.45",
+	  "vmag": "2.05",
+	  "spec_type": "K0-IIIb"
+	},
+	{
+	  "identifier": "*delCap",
+	  "typ": "EB*",
+	  "ra": 326.7601843312,
+	  "dec": -16.1272870853,
+	  "plx": "84.27",
+	  "vmag": "2.83",
+	  "spec_type": "kA5hF0mF2III"
+	},
+	{
+	  "identifier": "*tetAur",
+	  "typ": "a2*",
+	  "ra": 89.93029218,
+	  "dec": 37.21258463,
+	  "plx": "19.70",
+	  "vmag": "2.62",
+	  "spec_type": "A0VpSi"
+	},
+	{
+	  "identifier": "*etaCMa",
+	  "typ": "s*b",
+	  "ra": 111.0237595,
+	  "dec": -29.30310551,
+	  "plx": "1.64",
+	  "vmag": "2.45",
+	  "spec_type": "B5Ia"
+	},
+	{
+	  "identifier": "*etaPeg",
+	  "typ": "SB*",
+	  "ra": 340.75053685395,
+	  "dec": 30.22121471372,
+	  "plx": "16.6308",
+	  "vmag": "2.95",
+	  "spec_type": "G8II+F0V"
+	},
+	{
+	  "identifier": "*mu.Gem",
+	  "typ": "LP*",
+	  "ra": 95.74011193,
+	  "dec": 22.51358275,
+	  "plx": "14.08",
+	  "vmag": "2.87",
+	  "spec_type": "M3IIIab"
+	},
+	{
+	  "identifier": "*delOph",
+	  "typ": "PM*",
+	  "ra": 243.58641053,
+	  "dec": -3.69432256,
+	  "plx": "19.06",
+	  "vmag": "2.75",
+	  "spec_type": "M0.5III"
+	},
+	{
+	  "identifier": "*zetOriA",
+	  "typ": "SB*",
+	  "ra": 85.189696429,
+	  "dec": -1.942572322,
+	  "plx": "~",
+	  "vmag": "1.90",
+	  "spec_type": "O9.2IbvarNwk"
+	},
+	{
+	  "identifier": "*alfCas",
+	  "typ": "PM*",
+	  "ra": 10.1268377829,
+	  "dec": 56.5373311583,
+	  "plx": "14.29",
+	  "vmag": "2.23",
+	  "spec_type": "K0-IIIa"
+	},
+	{
+	  "identifier": "*alf02CVn",
+	  "typ": "a2*",
+	  "ra": 194.006939953752,
+	  "dec": 38.3183764362533,
+	  "plx": "32.7227",
+	  "vmag": "2.88",
+	  "spec_type": "A0VpSiEu"
+	},
+	{
+	  "identifier": "*alfEri",
+	  "typ": "Be*",
+	  "ra": 24.42852283,
+	  "dec": -57.23675281,
+	  "plx": "23.39",
+	  "vmag": "0.46",
+	  "spec_type": "B6Vpe"
+	},
+	{
+	  "identifier": "*betHyi",
+	  "typ": "PM*",
+	  "ra": 6.43779316,
+	  "dec": -77.25424612,
+	  "plx": "134.07",
+	  "vmag": "2.79",
+	  "spec_type": "G0V"
+	},
+	{
+	  "identifier": "*betAra",
+	  "typ": "s*r",
+	  "ra": 261.324949188826,
+	  "dec": -55.5298816877778,
+	  "plx": "4.5601",
+	  "vmag": "2.85",
+	  "spec_type": "K0/1Ib"
+	},
+	{
+	  "identifier": "*epsCarA",
+	  "typ": "*",
+	  "ra": 125.6284741,
+	  "dec": -59.5094807,
+	  "plx": "~",
+	  "vmag": "2.01",
+	  "spec_type": "K3:III"
+	},
+	{
+	  "identifier": "*iotOri",
+	  "typ": "SB*",
+	  "ra": 83.8582579471,
+	  "dec": -5.9099009825,
+	  "plx": "1.40",
+	  "vmag": "2.77",
+	  "spec_type": "O9IIIvar"
+	},
+	{
+	  "identifier": "*epsCrv",
+	  "typ": "PM*",
+	  "ra": 182.5311690937,
+	  "dec": -22.6197672175,
+	  "plx": "10.26",
+	  "vmag": "2.98",
+	  "spec_type": "K2+IIIa"
+	},
+	{
+	  "identifier": "*betCru",
+	  "typ": "bC*",
+	  "ra": 191.93028656,
+	  "dec": -59.688772,
+	  "plx": "11.71",
+	  "vmag": "1.25",
+	  "spec_type": "B1IV"
+	},
+	{
+	  "identifier": "*gamCyg",
+	  "typ": "V*",
+	  "ra": 305.5570909821,
+	  "dec": 40.2566791564,
+	  "plx": "1.78",
+	  "vmag": "2.23",
+	  "spec_type": "F8Ib"
+	},
+	{
+	  "identifier": "*alfCenB",
+	  "typ": "PM*",
+	  "ra": 219.89609629,
+	  "dec": -60.83752757,
+	  "plx": "743",
+	  "vmag": "1.33",
+	  "spec_type": "K1V"
+	},
+	{
+	  "identifier": "*mu.01Sco",
+	  "typ": "EB*",
+	  "ra": 252.96761814529,
+	  "dec": -38.047399464,
+	  "plx": "1.8732",
+	  "vmag": "2.98",
+	  "spec_type": "B1V+B"
+	},
+	{
+	  "identifier": "*betCrv",
+	  "typ": "PM*",
+	  "ra": 188.5968118304,
+	  "dec": -23.3967604036,
+	  "plx": "22.39",
+	  "vmag": "2.64",
+	  "spec_type": "G5IIBa0.3"
+	},
+	{
+	  "identifier": "*zetOri",
+	  "typ": "**",
+	  "ra": 85.18969443,
+	  "dec": -1.94257359,
+	  "plx": "4.43",
+	  "vmag": "1.77",
+	  "spec_type": "O9.7Ib+B0III"
+	},
+	{
+	  "identifier": "*sigSco",
+	  "typ": "bC*",
+	  "ra": 245.2971488058,
+	  "dec": -25.5927920767,
+	  "plx": "4.68",
+	  "vmag": "2.89",
+	  "spec_type": "B1III+B1:V"
+	},
+	{
+	  "identifier": "*gam02Vel",
+	  "typ": "WR*",
+	  "ra": 122.38312556,
+	  "dec": -47.33658633,
+	  "plx": "2.92",
+	  "vmag": "1.83",
+	  "spec_type": "WC8+O7.5III-V"
+	},
+	{
+	  "identifier": "*gamOri",
+	  "typ": "V*",
+	  "ra": 81.28276356,
+	  "dec": 6.34970326,
+	  "plx": "12.92",
+	  "vmag": "1.64",
+	  "spec_type": "B2V"
+	},
+	{
+	  "identifier": "*zetOph",
+	  "typ": "Be*",
+	  "ra": 249.2897460604,
+	  "dec": -10.5670915197,
+	  "plx": "8.91",
+	  "vmag": "2.56",
+	  "spec_type": "O9.2IVnn"
+	},
+	{
+	  "identifier": "*gamDra",
+	  "typ": "*",
+	  "ra": 269.15154118,
+	  "dec": 51.48889562,
+	  "plx": "21.14",
+	  "vmag": "2.230",
+	  "spec_type": "K5III"
+	},
+	{
+	  "identifier": "*betLup",
+	  "typ": "PM*",
+	  "ra": 224.63302235,
+	  "dec": -43.13396385,
+	  "plx": "8.52",
+	  "vmag": "2.68",
+	  "spec_type": "B2III"
+	},
+	{
+	  "identifier": "*delCas",
+	  "typ": "EB*",
+	  "ra": 21.4539644621,
+	  "dec": 60.2352840297,
+	  "plx": "32.81",
+	  "vmag": "2.680",
+	  "spec_type": "A5IV"
+	},
+	{
+	  "identifier": "*betLib",
+	  "typ": "PM*",
+	  "ra": 229.25172425,
+	  "dec": -9.38291441,
+	  "plx": "17.62",
+	  "vmag": "2.62",
+	  "spec_type": "B8Vn"
+	},
+	{
+	  "identifier": "*betCMi",
+	  "typ": "Be*",
+	  "ra": 111.7876739054,
+	  "dec": 8.2893157625,
+	  "plx": "20.17",
+	  "vmag": "2.89",
+	  "spec_type": "B8Ve"
+	},
+	{
+	  "identifier": "*betAqr",
+	  "typ": "*",
+	  "ra": 322.8897154783,
+	  "dec": -5.5711755572,
+	  "plx": "6.07",
+	  "vmag": "2.89",
+	  "spec_type": "G0Ib"
+	},
+	{
+	  "identifier": "*betLeo",
+	  "typ": "dS*",
+	  "ra": 177.26490976,
+	  "dec": 14.57205806,
+	  "plx": "90.91",
+	  "vmag": "2.13",
+	  "spec_type": "A3Va"
+	},
+	{
+	  "identifier": "*epsAur",
+	  "typ": "EB*",
+	  "ra": 75.49222653615,
+	  "dec": 43.82331030981,
+	  "plx": "0.9879",
+	  "vmag": "2.99",
+	  "spec_type": "A9Ia"
+	},
+	{
+	  "identifier": "*betLep",
+	  "typ": "**",
+	  "ra": 82.061346495,
+	  "dec": -20.7594410531,
+	  "plx": "20.34",
+	  "vmag": "2.84",
+	  "spec_type": "G5II-IIIa:"
+	},
+	{
+	  "identifier": "*zetCen",
+	  "typ": "SB*",
+	  "ra": 208.8849402,
+	  "dec": -47.28837451,
+	  "plx": "8.54",
+	  "vmag": "2.55",
+	  "spec_type": "B2.5IV"
+	},
+	{
+	  "identifier": "*gam01Leo",
+	  "typ": "PM*",
+	  "ra": 154.993143592,
+	  "dec": 19.841488667,
+	  "plx": "~",
+	  "vmag": "1.98",
+	  "spec_type": "K1-IIIFe-1"
+	},
+	{
+	  "identifier": "*delSgr",
+	  "typ": "*",
+	  "ra": 275.24851476,
+	  "dec": -29.8281016442,
+	  "plx": "9.38",
+	  "vmag": "2.668",
+	  "spec_type": "K2.5IIIaCN0.5"
+	},
+	{
+	  "identifier": "*gamCru",
+	  "typ": "PM*",
+	  "ra": 187.79149838,
+	  "dec": -57.11321346,
+	  "plx": "36.83",
+	  "vmag": "1.64",
+	  "spec_type": "M3.5III"
+	},
+	{
+	  "identifier": "*betOph",
+	  "typ": "PM*",
+	  "ra": 265.8681360342,
+	  "dec": 4.5673043011,
+	  "plx": "39.85",
+	  "vmag": "2.750",
+	  "spec_type": "K2IIICN0.5"
+	},
+	{
+	  "identifier": "*delSco",
+	  "typ": "SB*",
+	  "ra": 240.08335535,
+	  "dec": -22.62170643,
+	  "plx": "6.64",
+	  "vmag": "2.32",
+	  "spec_type": "B0.3IV"
+	},
+	{
+	  "identifier": "*betPeg",
+	  "typ": "LP*",
+	  "ra": 345.94357275,
+	  "dec": 28.08278712,
+	  "plx": "16.64",
+	  "vmag": "2.42",
+	  "spec_type": "M2.5II-III"
+	},
+	{
+	  "identifier": "*alfPsA",
+	  "typ": "**",
+	  "ra": 344.41269272,
+	  "dec": -29.62223703,
+	  "plx": "129.81",
+	  "vmag": "1.16",
+	  "spec_type": "A4V"
+	},
+	{
+	  "identifier": "*etaUMa",
+	  "typ": "PM*",
+	  "ra": 206.88515734,
+	  "dec": 49.31326673,
+	  "plx": "31.38",
+	  "vmag": "1.86",
+	  "spec_type": "B3V"
+	},
+	{
+	  "identifier": "SN2009jb",
+	  "typ": "SN*",
+	  "ra": 260.92379,
+	  "dec": 30.49739,
+	  "plx": "~",
+	  "vmag": "1.07",
+	  "spec_type": "SNIa"
+	},
+	{
+	  "identifier": "*alfTuc",
+	  "typ": "SB*",
+	  "ra": 334.6253949308,
+	  "dec": -60.2595906408,
+	  "plx": "16.33",
+	  "vmag": "2.82",
+	  "spec_type": "K3III"
+	},
+	{
+	  "identifier": "*alfSer",
+	  "typ": "PM*",
+	  "ra": 236.0669763162,
+	  "dec": 6.4256286867,
+	  "plx": "44.10",
+	  "vmag": "2.630",
+	  "spec_type": "K2IIIbCN1"
+	},
+	{
+	  "identifier": "*gamCenA",
+	  "typ": "PM*",
+	  "ra": 190.379307321,
+	  "dec": -48.959912317,
+	  "plx": "~",
+	  "vmag": "2.82",
+	  "spec_type": "A1IV"
+	},
+	{
+	  "identifier": "*alfUMaA",
+	  "typ": "PM*",
+	  "ra": 165.931952633,
+	  "dec": 61.751033342,
+	  "plx": "~",
+	  "vmag": "1.87",
+	  "spec_type": "G9III"
+	},
+	{
+	  "identifier": "*zetPup",
+	  "typ": "BY*",
+	  "ra": 120.89603141,
+	  "dec": -40.0031478,
+	  "plx": "3.01",
+	  "vmag": "2.25",
+	  "spec_type": "O4I(n)fp"
+	},
+	{
+	  "identifier": "*zetCMa",
+	  "typ": "Ce*",
+	  "ra": 95.0783001658,
+	  "dec": -30.0633667339,
+	  "plx": "9.00",
+	  "vmag": "2.99",
+	  "spec_type": "B2.5V"
+	},
+	{
+	  "identifier": "*gamLup",
+	  "typ": "El*",
+	  "ra": 233.78520145,
+	  "dec": -41.16675687,
+	  "plx": "7.75",
+	  "vmag": "2.765",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*epsLeo",
+	  "typ": "V*",
+	  "ra": 146.4628054183,
+	  "dec": 23.7742557872,
+	  "plx": "13.22",
+	  "vmag": "2.98",
+	  "spec_type": "G1IIIa"
+	},
+	{
+	  "identifier": "*tetSco",
+	  "typ": "*",
+	  "ra": 264.32970772,
+	  "dec": -42.99782799,
+	  "plx": "10.86",
+	  "vmag": "1.85",
+	  "spec_type": "F1III"
+	},
+	{
+	  "identifier": "*zetHer",
+	  "typ": "SB*",
+	  "ra": 250.32150433,
+	  "dec": 31.6027187,
+	  "plx": "93.32",
+	  "vmag": "2.800",
+	  "spec_type": "G0IV"
+	},
+	{
+	  "identifier": "*epsGem",
+	  "typ": "V*",
+	  "ra": 100.9830260792,
+	  "dec": 25.1311254122,
+	  "plx": "3.86",
+	  "vmag": "2.98",
+	  "spec_type": "G8Ib"
+	},
+	{
+	  "identifier": "*betPer",
+	  "typ": "EB*",
+	  "ra": 47.0422185563,
+	  "dec": 40.9556466703,
+	  "plx": "36.27",
+	  "vmag": "2.12",
+	  "spec_type": "B8V"
+	},
+	{
+	  "identifier": "*alf02Cru",
+	  "typ": "*",
+	  "ra": 186.651842,
+	  "dec": -63.099522,
+	  "plx": "~",
+	  "vmag": "1.58",
+	  "spec_type": "B1V"
+	},
+	{
+	  "identifier": "*epsCyg",
+	  "typ": "**",
+	  "ra": 311.5528431704,
+	  "dec": 33.9702569239,
+	  "plx": "44.86",
+	  "vmag": "2.480",
+	  "spec_type": "K0III"
+	},
+	{
+	  "identifier": "*etaOph",
+	  "typ": "**",
+	  "ra": 257.59452871,
+	  "dec": -15.72490664,
+	  "plx": "36.91",
+	  "vmag": "2.42",
+	  "spec_type": "A2IV-V"
+	},
+	{
+	  "identifier": "*betAnd",
+	  "typ": "PM*",
+	  "ra": 17.43301617,
+	  "dec": 35.62055765,
+	  "plx": "16.52",
+	  "vmag": "2.05",
+	  "spec_type": "M0+IIIa"
+	},
+	{
+	  "identifier": "*epsPeg",
+	  "typ": "LP*",
+	  "ra": 326.0464839142,
+	  "dec": 9.8750086533,
+	  "plx": "4.73",
+	  "vmag": "2.39",
+	  "spec_type": "K2Ib-II"
+	},
+	{
+	  "identifier": "*alfSco",
+	  "typ": "s*r",
+	  "ra": 247.35191542,
+	  "dec": -26.43200261,
+	  "plx": "5.89",
+	  "vmag": "0.91",
+	  "spec_type": "M1.5Iab+B2Vn"
+	},
+	{
+	  "identifier": "*alfPav",
+	  "typ": "SB*",
+	  "ra": 306.41190437,
+	  "dec": -56.73508973,
+	  "plx": "18.24",
+	  "vmag": "1.918",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*lamVel",
+	  "typ": "s*r",
+	  "ra": 136.99899114,
+	  "dec": -43.43259091,
+	  "plx": "5.99",
+	  "vmag": "2.21",
+	  "spec_type": "K4Ib"
+	},
+	{
+	  "identifier": "*delCru",
+	  "typ": "Pu*",
+	  "ra": 183.7863196854,
+	  "dec": -58.7489269267,
+	  "plx": "9.45",
+	  "vmag": "2.752",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*gamCenB",
+	  "typ": "PM*",
+	  "ra": 190.379230708,
+	  "dec": -48.95957685,
+	  "plx": "~",
+	  "vmag": "2.88",
+	  "spec_type": "A0IV"
+	},
+	{
+	  "identifier": "*alfPeg",
+	  "typ": "PM*",
+	  "ra": 346.19022269,
+	  "dec": 15.20526715,
+	  "plx": "24.46",
+	  "vmag": "2.48",
+	  "spec_type": "B9III"
+	},
+	{
+	  "identifier": "*alfGemA",
+	  "typ": "SB*",
+	  "ra": 113.64942845,
+	  "dec": 31.888276192,
+	  "plx": "~",
+	  "vmag": "1.9",
+	  "spec_type": "A1.5IV+"
+	},
+	{
+	  "identifier": "*alfPer",
+	  "typ": "V*",
+	  "ra": 51.0807087183,
+	  "dec": 49.8611792931,
+	  "plx": "6.44",
+	  "vmag": "1.79",
+	  "spec_type": "F5Ib"
+	},
+	{
+	  "identifier": "*alfLup",
+	  "typ": "bC*",
+	  "ra": 220.4823157775,
+	  "dec": -47.3881987461,
+	  "plx": "7.02",
+	  "vmag": "2.286",
+	  "spec_type": "B1.5III"
+	},
+	{
+	  "identifier": "*alfBoo",
+	  "typ": "RG*",
+	  "ra": 213.91530029,
+	  "dec": 19.18240916,
+	  "plx": "88.83",
+	  "vmag": "-0.05",
+	  "spec_type": "K1.5IIIFe-0.5"
+	},
+	{
+	  "identifier": "*gamPer",
+	  "typ": "EB*",
+	  "ra": 46.1991280875,
+	  "dec": 53.5064357569,
+	  "plx": "13.41",
+	  "vmag": "2.93",
+	  "spec_type": "G9III+A2-III:"
+	},
+	{
+	  "identifier": "*epsCMa",
+	  "typ": "*",
+	  "ra": 104.65645315,
+	  "dec": -28.97208616,
+	  "plx": "8.05",
+	  "vmag": "1.50",
+	  "spec_type": "B1.5II"
+	},
+	{
+	  "identifier": "*alfOri",
+	  "typ": "s*r",
+	  "ra": 88.79293899,
+	  "dec": 7.407064,
+	  "plx": "6.55",
+	  "vmag": "0.42",
+	  "spec_type": "M1-M2Ia-Iab"
+	},
+	{
+	  "identifier": "*gam01And",
+	  "typ": "SB*",
+	  "ra": 30.97480121,
+	  "dec": 42.32972842,
+	  "plx": "8.30",
+	  "vmag": "2.10",
+	  "spec_type": "K2+IIb"
+	},
+	{
+	  "identifier": "*tetCar",
+	  "typ": "SB*",
+	  "ra": 160.7391748642,
+	  "dec": -64.3944502211,
+	  "plx": "7.16",
+	  "vmag": "2.76",
+	  "spec_type": "B0Vp"
+	},
+	{
+	  "identifier": "*gamCen",
+	  "typ": "**",
+	  "ra": 190.37933367,
+	  "dec": -48.95987152,
+	  "plx": "25.06",
+	  "vmag": "2.17",
+	  "spec_type": "A1IV+A0IV"
+	},
+	{
+	  "identifier": "*alfLep",
+	  "typ": "V*",
+	  "ra": 83.1825671617,
+	  "dec": -17.8222892722,
+	  "plx": "1.47",
+	  "vmag": "2.57",
+	  "spec_type": "F0Ib"
+	},
+	{
+	  "identifier": "*iot01Sco",
+	  "typ": "s*y",
+	  "ra": 266.8961713746,
+	  "dec": -40.1269970414,
+	  "plx": "1.69",
+	  "vmag": "2.992",
+	  "spec_type": "F2Ia"
+	},
+	{
+	  "identifier": "*sigSgr",
+	  "typ": "**",
+	  "ra": 283.81636041,
+	  "dec": -26.29672411,
+	  "plx": "14.32",
+	  "vmag": "2.067",
+	  "spec_type": "B2V"
+	},
+	{
+	  "identifier": "*gamPeg",
+	  "typ": "bC*",
+	  "ra": 3.3089634617,
+	  "dec": 15.1835935442,
+	  "plx": "8.33",
+	  "vmag": "2.84",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*alfVir",
+	  "typ": "bC*",
+	  "ra": 201.29824736,
+	  "dec": -11.16131949,
+	  "plx": "13.06",
+	  "vmag": "0.97",
+	  "spec_type": "B1V"
+	},
+	{
+	  "identifier": "*alfTrA",
+	  "typ": "*",
+	  "ra": 252.16622951,
+	  "dec": -69.02771185,
+	  "plx": "8.35",
+	  "vmag": "1.88",
+	  "spec_type": "K2III_Ba1"
+	},
+	{
+	  "identifier": "*epsPer",
+	  "typ": "bC*",
+	  "ra": 59.4634668633,
+	  "dec": 40.0102153175,
+	  "plx": "5.11",
+	  "vmag": "2.89",
+	  "spec_type": "B1.5III"
+	},
+	{
+	  "identifier": "*alfHya",
+	  "typ": "*",
+	  "ra": 141.8968446,
+	  "dec": -8.65859953,
+	  "plx": "18.09",
+	  "vmag": "1.97",
+	  "spec_type": "K3IIIa"
+	},
+	{
+	  "identifier": "*betSco",
+	  "typ": "**",
+	  "ra": 241.35929,
+	  "dec": -19.80539,
+	  "plx": "~",
+	  "vmag": "2.50",
+	  "spec_type": "B1V+B2V"
+	},
+	{
+	  "identifier": "*pi.Sco",
+	  "typ": "EB*",
+	  "ra": 239.7129718242,
+	  "dec": -26.114107945,
+	  "plx": "5.57",
+	  "vmag": "2.91",
+	  "spec_type": "B1V+B2:V:"
+	},
+	{
+	  "identifier": "*betAri",
+	  "typ": "SB*",
+	  "ra": 28.66004579,
+	  "dec": 20.80803147,
+	  "plx": "55.60",
+	  "vmag": "2.65",
+	  "spec_type": "kA4hA5mA5Va"
+	},
+	{
+	  "identifier": "*alfUMa",
+	  "typ": "SB*",
+	  "ra": 165.93196467,
+	  "dec": 61.75103469,
+	  "plx": "26.54",
+	  "vmag": "1.79",
+	  "spec_type": "G9III+A7.5"
+	},
+	{
+	  "identifier": "*betDra",
+	  "typ": "*",
+	  "ra": 262.6081737329,
+	  "dec": 52.3013887086,
+	  "plx": "8.58",
+	  "vmag": "2.81",
+	  "spec_type": "G2Ib-IIa"
+	},
+	{
+	  "identifier": "*betCas",
+	  "typ": "dS*",
+	  "ra": 2.29452158,
+	  "dec": 59.1497811,
+	  "plx": "59.58",
+	  "vmag": "2.27",
+	  "spec_type": "F2III"
+	},
+	{
+	  "identifier": "*epsCen",
+	  "typ": "bC*",
+	  "ra": 204.97190723,
+	  "dec": -53.46639115,
+	  "plx": "7.63",
+	  "vmag": "2.30",
+	  "spec_type": "B1III"
+	},
+	{
+	  "identifier": "*etaDra",
+	  "typ": "PM*",
+	  "ra": 245.997859702,
+	  "dec": 61.51420976085,
+	  "plx": "35.7163",
+	  "vmag": "2.74",
+	  "spec_type": "G8-IIIab"
+	},
+	{
+	  "identifier": "*delCrv",
+	  "typ": "PM*",
+	  "ra": 187.4660631842,
+	  "dec": -16.5154312617,
+	  "plx": "37.55",
+	  "vmag": "2.94",
+	  "spec_type": "A0IV(n)kB9"
+	},
+	{
+	  "identifier": "*epsBoo",
+	  "typ": "**",
+	  "ra": 221.2467394,
+	  "dec": 27.07422497,
+	  "plx": "16.10",
+	  "vmag": "2.39",
+	  "spec_type": "A0"
+	},
+	{
+	  "identifier": "*epsUMa",
+	  "typ": "a2*",
+	  "ra": 193.5072899675,
+	  "dec": 55.9598229569,
+	  "plx": "39.51",
+	  "vmag": "1.77",
+	  "spec_type": "A1III-IVpkB9"
+	},
+	{
+	  "identifier": "*delCMa",
+	  "typ": "s*y",
+	  "ra": 107.0978502142,
+	  "dec": -26.3931995789,
+	  "plx": "2.03",
+	  "vmag": "1.84",
+	  "spec_type": "F8Ia"
+	},
+	{
+	  "identifier": "*gamEri",
+	  "typ": "LP?",
+	  "ra": 59.5073622871,
+	  "dec": -13.5085193806,
+	  "plx": "16.04",
+	  "vmag": "2.94",
+	  "spec_type": "M0III-IIIb"
+	},
+	{
+	  "identifier": "*epsBooA",
+	  "typ": "*",
+	  "ra": 221.246763108,
+	  "dec": 27.074207219,
+	  "plx": "16.2",
+	  "vmag": "2.45",
+	  "spec_type": "K0-II-III"
+	},
+	{
+	  "identifier": "*rhoPup",
+	  "typ": "dS*",
+	  "ra": 121.8860367646,
+	  "dec": -24.3043244294,
+	  "plx": "51.33",
+	  "vmag": "2.81",
+	  "spec_type": "F5IIkF2IImF5II"
+	},
+	{
+	  "identifier": "*alfUMi",
+	  "typ": "cC*",
+	  "ra": 37.95456067,
+	  "dec": 89.26410897,
+	  "plx": "7.54",
+	  "vmag": "2.02",
+	  "spec_type": "F8Ib"
+	},
+	{
+	  "identifier": "*delOri",
+	  "typ": "SB*",
+	  "ra": 83.00166706,
+	  "dec": -0.29909511,
+	  "plx": "4.71",
+	  "vmag": "2.41",
+	  "spec_type": "O9.5IINwk"
+	},
+	{
+	  "identifier": "*betHer",
+	  "typ": "SB*",
+	  "ra": 247.5549981108,
+	  "dec": 21.4896113272,
+	  "plx": "23.44",
+	  "vmag": "2.77",
+	  "spec_type": "G7IIIaFe-0.5"
+	},
+	{
+	  "identifier": "*betCar",
+	  "typ": "PM*",
+	  "ra": 138.29990608,
+	  "dec": -69.7172076,
+	  "plx": "28.82",
+	  "vmag": "1.69",
+	  "spec_type": "A1III-"
+	},
+	{
+	  "identifier": "*zetAql",
+	  "typ": "PM*",
+	  "ra": 286.3525333979,
+	  "dec": 13.8634772811,
+	  "plx": "39.28",
+	  "vmag": "2.99",
+	  "spec_type": "A0IV-Vnn"
+	},
+	{
+	  "identifier": "*mu.Vel",
+	  "typ": "**",
+	  "ra": 161.69241154,
+	  "dec": -49.42025679,
+	  "plx": "27.84",
+	  "vmag": "2.69",
+	  "spec_type": "G6III"
+	},
+	{
+	  "identifier": "*iotCen",
+	  "typ": "PM*",
+	  "ra": 200.149220065039,
+	  "dec": -36.712304581225,
+	  "plx": "56.0571",
+	  "vmag": "2.73",
+	  "spec_type": "kA1.5hA3mA3Va"
+	},
+	{
+	  "identifier": "*kapSco",
+	  "typ": "bC*",
+	  "ra": 265.62198,
+	  "dec": -39.02998308,
+	  "plx": "6.75",
+	  "vmag": "2.386",
+	  "spec_type": "B1.5III"
+	},
+	{
+	  "identifier": "*gamGem",
+	  "typ": "SB*",
+	  "ra": 99.42796043,
+	  "dec": 16.39928043,
+	  "plx": "29.84",
+	  "vmag": "1.92",
+	  "spec_type": "A1.5IV+"
+	},
+	{
+	  "identifier": "*betOri",
+	  "typ": "s*b",
+	  "ra": 78.63446707,
+	  "dec": -8.20163836,
+	  "plx": "3.78",
+	  "vmag": "0.13",
+	  "spec_type": "B8Iae"
+	},
+	{
+	  "identifier": "*alfCenA",
+	  "typ": "SB*",
+	  "ra": 219.90205833,
+	  "dec": -60.83399269,
+	  "plx": "743",
+	  "vmag": "0.01",
+	  "spec_type": "G2V"
+	},
+	{
+	  "identifier": "*betGru",
+	  "typ": "LP?",
+	  "ra": 340.66687613,
+	  "dec": -46.88457644,
+	  "plx": "18.43",
+	  "vmag": "2.11",
+	  "spec_type": "M4.5III"
+	},
+	{
+	  "identifier": "*alf01Cru",
+	  "typ": "*",
+	  "ra": 186.649567,
+	  "dec": -63.099092,
+	  "plx": "~",
+	  "vmag": "1.28",
+	  "spec_type": "B0.5IV"
+	},
+	{
+	  "identifier": "*lamSco",
+	  "typ": "bC*",
+	  "ra": 263.40216718,
+	  "dec": -37.10382355,
+	  "plx": "5.71",
+	  "vmag": "1.63",
+	  "spec_type": "B2IV+DA7.9"
+	},
+	{
+	  "identifier": "*alfCyg",
+	  "typ": "sg*",
+	  "ra": 310.35797975,
+	  "dec": 45.28033881,
+	  "plx": "2.31",
+	  "vmag": "1.25",
+	  "spec_type": "A2Ia"
+	},
+	{
+	  "identifier": "*alfCep",
+	  "typ": "PM*",
+	  "ra": 319.6448847,
+	  "dec": 62.58557446,
+	  "plx": "66.50",
+	  "vmag": "2.460",
+	  "spec_type": "A8Vn"
+	},
+	{
+	  "identifier": "*gamTrA",
+	  "typ": "PM*",
+	  "ra": 229.7274249308,
+	  "dec": -68.6795459339,
+	  "plx": "17.74",
+	  "vmag": "2.89",
+	  "spec_type": "A1V"
+	},
+	{
+	  "identifier": "*pi.Pup",
+	  "typ": "LP*",
+	  "ra": 109.28565325,
+	  "dec": -37.09747115,
+	  "plx": "4.04",
+	  "vmag": "2.70",
+	  "spec_type": "K4III"
+	},
+	{
+	  "identifier": "*etaOphA",
+	  "typ": "PM*",
+	  "ra": 257.5944336,
+	  "dec": -15.7251428,
+	  "plx": "~",
+	  "vmag": "2.463",
+	  "spec_type": "A2(V)"
+	},
+	{
+	  "identifier": "*iotAur",
+	  "typ": "V*",
+	  "ra": 74.2484167602221,
+	  "dec": 33.1660937720772,
+	  "plx": "7.2491",
+	  "vmag": "2.69",
+	  "spec_type": "K3II-III"
+	},
+	{
+	  "identifier": "*alfMus",
+	  "typ": "**",
+	  "ra": 189.2959078692,
+	  "dec": -69.1355647886,
+	  "plx": "10.34",
+	  "vmag": "2.649",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*delLeo",
+	  "typ": "PM*",
+	  "ra": 168.52708927,
+	  "dec": 20.52371814,
+	  "plx": "55.82",
+	  "vmag": "2.53",
+	  "spec_type": "A5IV(n)"
+	},
+	{
+	  "identifier": "*betEri",
+	  "typ": "PM*",
+	  "ra": 76.9623953546204,
+	  "dec": -5.08649698397,
+	  "plx": "36.2456",
+	  "vmag": "2.79",
+	  "spec_type": "A3IV"
+	},
+	{
+	  "identifier": "*kapOri",
+	  "typ": "s*b",
+	  "ra": 86.9391201683,
+	  "dec": -9.6696049186,
+	  "plx": "5.04",
+	  "vmag": "2.06",
+	  "spec_type": "B0.5Ia"
+	},
+	{
+	  "identifier": "*gam02Sgr",
+	  "typ": "PM*",
+	  "ra": 271.452033745,
+	  "dec": -30.4240898494,
+	  "plx": "33.67",
+	  "vmag": "2.99",
+	  "spec_type": "K0+III"
+	},
+	{
+	  "identifier": "*etaCen",
+	  "typ": "Be*",
+	  "ra": 218.8767673375,
+	  "dec": -42.1578252172,
+	  "plx": "10.67",
+	  "vmag": "2.31",
+	  "spec_type": "B2Ve"
+	},
+	{
+	  "identifier": "*betAur",
+	  "typ": "EB*",
+	  "ra": 89.8821788683,
+	  "dec": 44.9474325719,
+	  "plx": "40.21",
+	  "vmag": "1.90",
+	  "spec_type": "A1IV-Vp"
+	},
+	{
+	  "identifier": "*alfAql",
+	  "typ": "dS*",
+	  "ra": 297.6958273,
+	  "dec": 8.8683212,
+	  "plx": "194.95",
+	  "vmag": "0.76",
+	  "spec_type": "A7Vn"
+	},
+	{
+	  "identifier": "*alfCen",
+	  "typ": "**",
+	  "ra": 219.87383306,
+	  "dec": -60.83222194,
+	  "plx": "742",
+	  "vmag": "-0.1",
+	  "spec_type": "G2V+K1V"
+	},
+	{
+	  "identifier": "*alfAnd",
+	  "typ": "a2*",
+	  "ra": 2.09691619,
+	  "dec": 29.09043112,
+	  "plx": "33.62",
+	  "vmag": "2.06",
+	  "spec_type": "B8IV-VHgMn"
+	},
+	{
+	  "identifier": "*alfLyr",
+	  "typ": "dS*",
+	  "ra": 279.23473479,
+	  "dec": 38.78368896,
+	  "plx": "130.23",
+	  "vmag": "0.03",
+	  "spec_type": "A0Va"
+	},
+	{
+	  "identifier": "*alfCet",
+	  "typ": "LP?",
+	  "ra": 45.5698878,
+	  "dec": 4.08973877,
+	  "plx": "13.09",
+	  "vmag": "2.53",
+	  "spec_type": "M1.5IIIa"
+	},
+	{
+	  "identifier": "*epsCar",
+	  "typ": "**",
+	  "ra": 125.62848024,
+	  "dec": -59.50948419,
+	  "plx": "5.39",
+	  "vmag": "1.86",
+	  "spec_type": "K3:III+B2:V"
+	},
+	{
+	  "identifier": "*alfAri",
+	  "typ": "PM*",
+	  "ra": 31.7933571,
+	  "dec": 23.46241755,
+	  "plx": "49.56",
+	  "vmag": "2.01",
+	  "spec_type": "K2-IIIbCa-1"
+	},
+	{
+	  "identifier": "*alfCol",
+	  "typ": "Be*",
+	  "ra": 84.9122542996,
+	  "dec": -34.0741097197,
+	  "plx": "12.48",
+	  "vmag": "2.65",
+	  "spec_type": "B9Ve"
+	},
+	{
+	  "identifier": "*etaBoo",
+	  "typ": "SB*",
+	  "ra": 208.67116217,
+	  "dec": 18.39772072,
+	  "plx": "87.75",
+	  "vmag": "2.680",
+	  "spec_type": "G0IV"
+	},
+	{
+	  "identifier": "*gamCrv",
+	  "typ": "PM*",
+	  "ra": 183.95154504,
+	  "dec": -17.54193046,
+	  "plx": "21.23",
+	  "vmag": "2.58",
+	  "spec_type": "B8III"
+	},
+	{
+	  "identifier": "*alfTau",
+	  "typ": "LP?",
+	  "ra": 68.98016279,
+	  "dec": 16.50930235,
+	  "plx": "48.94",
+	  "vmag": "0.86",
+	  "spec_type": "K5+III"
+	},
+	{
+	  "identifier": "*alfAqr",
+	  "typ": "*",
+	  "ra": 331.4459830479,
+	  "dec": -0.3198491017,
+	  "plx": "6.23",
+	  "vmag": "2.94",
+	  "spec_type": "G2Ib"
+	},
+	{
+	  "identifier": "*tauSco",
+	  "typ": "*",
+	  "ra": 248.9706368875,
+	  "dec": -28.2160170875,
+	  "plx": "6.88",
+	  "vmag": "2.81",
+	  "spec_type": "B0.2V"
+	},
+	{
+	  "identifier": "*betUMa",
+	  "typ": "PM*",
+	  "ra": 165.4603189042,
+	  "dec": 56.3824260867,
+	  "plx": "40.90",
+	  "vmag": "2.37",
+	  "spec_type": "A1IVps"
+	},
+	{
+	  "identifier": "*alfCMa",
+	  "typ": "SB*",
+	  "ra": 101.28715533,
+	  "dec": -16.71611586,
+	  "plx": "379.21",
+	  "vmag": "-1.46",
+	  "spec_type": "A0mA1Va"
+	},
+	{
+	  "identifier": "*betGem",
+	  "typ": "PM*",
+	  "ra": 116.32895777,
+	  "dec": 28.02619889,
+	  "plx": "96.54",
+	  "vmag": "1.14",
+	  "spec_type": "K0IIIb"
+	},
+	{
+	  "identifier": "*alfLeo",
+	  "typ": "PM*",
+	  "ra": 152.09296244,
+	  "dec": 11.96720878,
+	  "plx": "41.13",
+	  "vmag": "1.40",
+	  "spec_type": "B8IVn"
+	},
+	{
+	  "identifier": "*zetPer",
+	  "typ": "s*b",
+	  "ra": 58.5330103129,
+	  "dec": 31.8836336839,
+	  "plx": "4.34",
+	  "vmag": "2.85",
+	  "spec_type": "B1Ib"
+	},
+	{
+	  "identifier": "*alfAur",
+	  "typ": "SB*",
+	  "ra": 79.17232794,
+	  "dec": 45.99799147,
+	  "plx": "76.20",
+	  "vmag": "0.08",
+	  "spec_type": "G3III:"
+	},
+	{
+	  "identifier": "*alfGru",
+	  "typ": "PM*",
+	  "ra": 332.0582697,
+	  "dec": -46.96097438,
+	  "plx": "32.29",
+	  "vmag": "1.71",
+	  "spec_type": "B6V"
+	},
+	{
+	  "identifier": "*epsOri",
+	  "typ": "s*b",
+	  "ra": 84.05338894,
+	  "dec": -1.20191914,
+	  "plx": "1.65",
+	  "vmag": "1.69",
+	  "spec_type": "B0Ia"
+	},
+	{
+	  "identifier": "*iotCar",
+	  "typ": "V*",
+	  "ra": 139.2725285717,
+	  "dec": -59.2752320292,
+	  "plx": "4.26",
+	  "vmag": "2.26",
+	  "spec_type": "A7Ib"
+	},
+	{
+	  "identifier": "*bet01Sco",
+	  "typ": "bC*",
+	  "ra": 241.3592999275,
+	  "dec": -19.8054527828,
+	  "plx": "8.07",
+	  "vmag": "2.62",
+	  "spec_type": "B1V"
+	},
+	{
+	  "identifier": "*betUMi",
+	  "typ": "V*",
+	  "ra": 222.6763575,
+	  "dec": 74.15550394,
+	  "plx": "24.91",
+	  "vmag": "2.08",
+	  "spec_type": "K4-III"
+	},
+	{
+	  "identifier": "*alfCrB",
+	  "typ": "EB*",
+	  "ra": 233.67195002,
+	  "dec": 26.71469278,
+	  "plx": "43.46",
+	  "vmag": "2.24",
+	  "spec_type": "A1IV"
+	},
+	{
+	  "identifier": "*delCyg",
+	  "typ": "PM*",
+	  "ra": 296.2436605888,
+	  "dec": 45.1308100183,
+	  "plx": "19.77",
+	  "vmag": "2.87",
+	  "spec_type": "A0IV"
+	},
+	{
+	  "identifier": "*gamLeo",
+	  "typ": "**",
+	  "ra": 154.99312733,
+	  "dec": 19.84148522,
+	  "plx": "25.07",
+	  "vmag": "2.37",
+	  "spec_type": "K1-III+G7IIIb"
+	},
+	{
+	  "identifier": "*alfOph",
+	  "typ": "**",
+	  "ra": 263.73362272,
+	  "dec": 12.56003739,
+	  "plx": "67.13",
+	  "vmag": "2.07",
+	  "spec_type": "A5IVnn"
+	},
+	{
+	  "identifier": "*alfAra",
+	  "typ": "Be*",
+	  "ra": 262.9603813675,
+	  "dec": -49.8761450114,
+	  "plx": "12.20",
+	  "vmag": "2.95",
+	  "spec_type": "B2Vne"
+	},
+	{
+	  "identifier": "*betCMa",
+	  "typ": "bC*",
+	  "ra": 95.6749389696,
+	  "dec": -17.9559187089,
+	  "plx": "6.62",
+	  "vmag": "1.97",
+	  "spec_type": "B1II-III"
+	},
+	{
+	  "identifier": "*alfGem",
+	  "typ": "**",
+	  "ra": 113.64947164,
+	  "dec": 31.88828222,
+	  "plx": "64.12",
+	  "vmag": "1.58",
+	  "spec_type": "A1V+A2Vm"
+	},
+	{
+	  "identifier": "*pi.Sgr",
+	  "typ": "**",
+	  "ra": 287.440970525,
+	  "dec": -21.0236139819,
+	  "plx": "6.40",
+	  "vmag": "2.88",
+	  "spec_type": "F2II-III"
+	},
+	{
+	  "identifier": "*epsVir",
+	  "typ": "PM*",
+	  "ra": 195.5441577067,
+	  "dec": 10.9591504008,
+	  "plx": "29.76",
+	  "vmag": "2.79",
+	  "spec_type": "G8III-IIIb"
+	},
+	{
+	  "identifier": "*lamSgr",
+	  "typ": "PM*",
+	  "ra": 276.9926696604,
+	  "dec": -25.4216984969,
+	  "plx": "41.72",
+	  "vmag": "2.81",
+	  "spec_type": "K1IIIb"
+	},
+	{
+	  "identifier": "*betTau",
+	  "typ": "PM*",
+	  "ra": 81.57297133,
+	  "dec": 28.60745172,
+	  "plx": "24.36",
+	  "vmag": "1.65",
+	  "spec_type": "B7III"
+	},
+	{
+	  "identifier": "*delCen",
+	  "typ": "Be*",
+	  "ra": 182.0895734887,
+	  "dec": -50.7224273928,
+	  "plx": "7.86",
+	  "vmag": "2.52",
+	  "spec_type": "B2Vne"
+	},
+	{
+	  "identifier": "*gamAql",
+	  "typ": "*",
+	  "ra": 296.5649178783,
+	  "dec": 10.61326133,
+	  "plx": "8.26",
+	  "vmag": "2.72",
+	  "spec_type": "K3II"
+	},
+	{
+	  "identifier": "*zetSgr",
+	  "typ": "**",
+	  "ra": 285.65304266,
+	  "dec": -29.8800633,
+	  "plx": "36.98",
+	  "vmag": "2.59",
+	  "spec_type": "A2.5Va"
+	},
+	{
+	  "identifier": "*upsSco",
+	  "typ": "*",
+	  "ra": 262.69098801170003,
+	  "dec": -37.2958134753,
+	  "plx": "5.66",
+	  "vmag": "2.65",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*gamVir",
+	  "typ": "PM*",
+	  "ra": 190.415117620063,
+	  "dec": -1.4494039524575,
+	  "plx": "83.1935",
+	  "vmag": "2.74",
+	  "spec_type": "F1-F2V"
+	},
+	{
+	  "identifier": "*tauPup",
+	  "typ": "SB*",
+	  "ra": 102.4840352479,
+	  "dec": -50.6145676878,
+	  "plx": "17.92",
+	  "vmag": "2.93",
+	  "spec_type": "K1III"
+	},
+	{
+	  "identifier": "*epsSco",
+	  "typ": "PM*",
+	  "ra": 252.5408783862,
+	  "dec": -34.2932315931,
+	  "plx": "51.19",
+	  "vmag": "2.29",
+	  "spec_type": "K1III"
+	},
+	{
+	  "identifier": "*upsCar",
+	  "typ": "*",
+	  "ra": 146.77550706,
+	  "dec": -65.07200742,
+	  "plx": "2.27",
+	  "vmag": "2.99",
+	  "spec_type": "A9"
+	},
+	{
+	  "identifier": "*etaTau",
+	  "typ": "Be*",
+	  "ra": 56.8711523037,
+	  "dec": 24.1051356519,
+	  "plx": "8.09",
+	  "vmag": "2.87",
+	  "spec_type": "B7III"
+	},
+	{
+	  "identifier": "*alfHyi",
+	  "typ": "PM*",
+	  "ra": 29.6924777913,
+	  "dec": -61.5698596606,
+	  "plx": "45.43",
+	  "vmag": "2.84",
+	  "spec_type": "F0IV"
+	},
+	{
+	  "identifier": "*zet01UMa",
+	  "typ": "SB*",
+	  "ra": 200.981426168822,
+	  "dec": 54.9253598833028,
+	  "plx": "40.2133",
+	  "vmag": "2.220",
+	  "spec_type": "A1.5Vas"
+	},
+	{
+	  "identifier": "*delVel",
+	  "typ": "EB*",
+	  "ra": 131.1759441,
+	  "dec": -54.70881925,
+	  "plx": "40.49",
+	  "vmag": "1.95",
+	  "spec_type": "A2IV+A4V+F8V"
+	},
+	{
+	  "identifier": "*betCet",
+	  "typ": "PM*",
+	  "ra": 10.89737874,
+	  "dec": -17.98660632,
+	  "plx": "33.86",
+	  "vmag": "2.01",
+	  "spec_type": "G9.5IIICH-1"
+	},
+	{
+	  "identifier": "*alf02Lib",
+	  "typ": "SB*",
+	  "ra": 222.71963789,
+	  "dec": -16.04177652,
+	  "plx": "43.03",
+	  "vmag": "2.75",
+	  "spec_type": "kA2hA5mA4IV-V"
+	},
+	{
+	  "identifier": "*gamCas",
+	  "typ": "Be*",
+	  "ra": 14.1772128937,
+	  "dec": 60.7167400247,
+	  "plx": "5.94",
+	  "vmag": "2.39",
+	  "spec_type": "B0.5IVpe"
+	},
+	{
+	  "identifier": "*gamUMa",
+	  "typ": "Em*",
+	  "ra": 178.4576971525,
+	  "dec": 53.6947597292,
+	  "plx": "39.21",
+	  "vmag": "2.440",
+	  "spec_type": "A0Ve+K2V"
+	},
+	{
+	  "identifier": "*alfPhe",
+	  "typ": "SB*",
+	  "ra": 6.57104752,
+	  "dec": -42.30598719,
+	  "plx": "38.50",
+	  "vmag": "2.38",
+	  "spec_type": "K0.5IIIb"
+	},
+	{
+	  "identifier": "*betCen",
+	  "typ": "bC*",
+	  "ra": 210.95585562,
+	  "dec": -60.37303516,
+	  "plx": "8.32",
+	  "vmag": "0.58",
+	  "spec_type": "B1III"
+	},
+	{
+	  "identifier": "*alfCMi",
+	  "typ": "SB*",
+	  "ra": 114.82549791,
+	  "dec": 5.22498756,
+	  "plx": "284.56",
+	  "vmag": "0.37",
+	  "spec_type": "F5IV-V+DQZ"
+	},
+	{
+	  "identifier": "*alfCar",
+	  "typ": "*",
+	  "ra": 95.98795783,
+	  "dec": -52.69566138,
+	  "plx": "10.55",
+	  "vmag": "-0.74",
+	  "spec_type": "A9II"
+	},
+	{
+	  "identifier": "*kapVel",
+	  "typ": "SB*",
+	  "ra": 140.5284067083,
+	  "dec": -55.0106671342,
+	  "plx": "5.70",
+	  "vmag": "2.473",
+	  "spec_type": "B2IV"
+	},
+	{
+	  "identifier": "*epsSgr",
+	  "typ": "PM*",
+	  "ra": 276.04299335,
+	  "dec": -34.38461649,
+	  "plx": "22.76",
+	  "vmag": "1.81",
+	  "spec_type": "B9IVp_lB?"
+	},
+	{
+	  "identifier": "*betTrA",
+	  "typ": "PM*",
+	  "ra": 238.785675265,
+	  "dec": -63.4307265364,
+	  "plx": "80.79",
+	  "vmag": "2.85",
+	  "spec_type": "F1V"
+	}
+  ]
+}

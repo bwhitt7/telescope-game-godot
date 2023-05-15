@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsi76ky3porwi"]
+
+[ext_resource type="Script" path="res://scenes/computer/picture_grid.gd" id="1_uthqq"]
+
+[node name="DayFolder" type="GridContainer"]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 3
+script = ExtResource("1_uthqq")

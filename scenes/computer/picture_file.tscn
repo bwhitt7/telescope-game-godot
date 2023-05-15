@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://cwmfmyl3wh5pv"]
+
+[ext_resource type="Script" path="res://scenes/computer/picture_file.gd" id="1_c1x1v"]
+[ext_resource type="Texture2D" uid="uid://c8urix8r1mxpp" path="res://assets/sprites/computer/file.png" id="1_o6ic0"]
+[ext_resource type="Theme" uid="uid://dk2qnhibyhor0" path="res://assets/theme/theme.tres" id="2_mfndd"]
+
+[node name="PictureFile" type="VBoxContainer"]
+size_flags_horizontal = 3
+script = ExtResource("1_c1x1v")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+icon = ExtResource("1_o6ic0")
+flat = true
+icon_alignment = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+theme = ExtResource("2_mfndd")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "image.png"
+horizontal_alignment = 1
+text_overrun_behavior = 3
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

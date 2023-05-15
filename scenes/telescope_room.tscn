@@ -1,0 +1,66 @@
+[gd_scene load_steps=7 format=3 uid="uid://bqw7u02v4ap3m"]
+
+[ext_resource type="Script" path="res://scenes/telescope_room.gd" id="1_qkq41"]
+[ext_resource type="Texture2D" uid="uid://wy054apkrcir" path="res://assets/sprites/telescope_room.png" id="1_qx052"]
+[ext_resource type="PackedScene" uid="uid://ditffgrgj8fye" path="res://scenes/player.tscn" id="2_gmqqi"]
+[ext_resource type="PackedScene" uid="uid://n2ktmsq6s0vv" path="res://scenes/interactable.tscn" id="3_of5y6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mj67k"]
+size = Vector2(1286, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5x6p3"]
+size = Vector2(20, 345.5)
+
+[node name="TelescopeRoom" type="Node2D"]
+script = ExtResource("1_qkq41")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 639.0
+offset_bottom = 446.0
+texture = ExtResource("1_qx052")
+expand_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_gmqqi")]
+position = Vector2(443, 300)
+speed = 200
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(388, 334)
+shape = SubResource("RectangleShape2D_mj67k")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-11, 184.25)
+shape = SubResource("RectangleShape2D_5x6p3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(649, 184)
+shape = SubResource("RectangleShape2D_5x6p3")
+
+[node name="Interactable" parent="." instance=ExtResource("3_of5y6")]
+position = Vector2(205, 289)
+label_text = "Telescope"
+interaction = {
+"scene": "res://scenes/main_game.tscn"
+}
+size_x = 2.0
+size_y = 2.0
+
+[node name="Interactable2" parent="." instance=ExtResource("3_of5y6")]
+position = Vector2(352, 289)
+label_text = "Computer"
+interaction = {
+"scene": "res://scenes/computer/computer.tscn"
+}
+size_x = 2.0
+size_y = 2.0
+
+[node name="Interactable3" parent="." instance=ExtResource("3_of5y6")]
+position = Vector2(530, 299)
+label_text = "Exit"
+interaction = {
+"scene": "res://scenes/main_menu.tscn"
+}
+size_x = 2.0
+size_y = 2.0

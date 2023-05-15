@@ -1,0 +1,120 @@
+[gd_scene load_steps=7 format=3 uid="uid://ctu562jnjxdp2"]
+
+[ext_resource type="Script" path="res://scenes/main_game.gd" id="1_5gmuc"]
+[ext_resource type="PackedScene" uid="uid://d1t5h4p6cys2y" path="res://scenes/star_map.tscn" id="1_74er3"]
+[ext_resource type="Texture2D" uid="uid://b5h6if6ykq7gf" path="res://assets/sprites/telescope_field.png" id="2_aisae"]
+[ext_resource type="Script" path="res://scenes/star_camera.gd" id="2_tl1d6"]
+[ext_resource type="Theme" uid="uid://dk2qnhibyhor0" path="res://assets/theme/theme.tres" id="2_vephr"]
+[ext_resource type="PackedScene" uid="uid://rtdipu3ytuhg" path="res://scenes/3d_star.tscn" id="5_eyvb5"]
+
+[node name="MainGame" type="Node"]
+script = ExtResource("1_5gmuc")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 99
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="CanvasLayer"]
+visible = false
+offset_right = 640.0
+offset_bottom = 360.0
+
+[node name="SubViewport" type="SubViewport" parent="CanvasLayer/SubViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(640, 360)
+render_target_update_mode = 0
+
+[node name="Star" parent="CanvasLayer/SubViewportContainer/SubViewport" instance=ExtResource("5_eyvb5")]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TelescopeView" type="Sprite2D" parent="CanvasLayer/Control"]
+texture = ExtResource("2_aisae")
+centered = false
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 500
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="VSplitContainer2" type="VSplitContainer" parent="CanvasLayer/Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer/VSplitContainer2"]
+layout_mode = 2
+size_flags_vertical = 1
+theme = ExtResource("2_vephr")
+text = "Test"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ItemList" type="ItemList" parent="CanvasLayer/Control/MarginContainer/VBoxContainer/VSplitContainer2"]
+clip_contents = false
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("2_vephr")
+auto_height = true
+text_overrun_behavior = 0
+item_count = 1
+item_0/text = "test"
+
+[node name="Button" type="Button" parent="CanvasLayer/Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_vephr")
+text = "Go To"
+
+[node name="Button2" type="Button" parent="CanvasLayer/Control/MarginContainer/VBoxContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("2_vephr")
+text = "Picture"
+
+[node name="VSplitContainer" type="VSplitContainer" parent="CanvasLayer/Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 10
+mouse_filter = 2
+
+[node name="ButtonHide" type="Button" parent="CanvasLayer/Control/MarginContainer/VBoxContainer/VSplitContainer"]
+layout_mode = 2
+theme = ExtResource("2_vephr")
+text = "Hide View"
+
+[node name="ButtonExit" type="Button" parent="CanvasLayer/Control/MarginContainer/VBoxContainer/VSplitContainer"]
+layout_mode = 2
+theme = ExtResource("2_vephr")
+text = "Exit"
+
+[node name="StarMap" parent="." instance=ExtResource("1_74er3")]
+
+[node name="StarCamera" type="Camera2D" parent="."]
+position = Vector2(344, 200)
+limit_left = -5000
+limit_top = -5000
+limit_right = 5000
+limit_bottom = 5000
+limit_smoothed = true
+position_smoothing_enabled = true
+script = ExtResource("2_tl1d6")
+move_speed = 10
+
+[connection signal="button_down" from="CanvasLayer/Control/MarginContainer/VBoxContainer/Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/Control/MarginContainer/VBoxContainer/Button2" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="CanvasLayer/Control/MarginContainer/VBoxContainer/VSplitContainer/ButtonHide" to="." method="_on_button_hide_button_down"]
+[connection signal="button_down" from="CanvasLayer/Control/MarginContainer/VBoxContainer/VSplitContainer/ButtonExit" to="." method="_on_button_exit_button_down"]

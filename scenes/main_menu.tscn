@@ -1,0 +1,104 @@
+[gd_scene load_steps=8 format=3 uid="uid://da6d66ec6o038"]
+
+[ext_resource type="FontFile" uid="uid://b5wstndfw41qo" path="res://assets/fonts/Radio Space.ttf" id="1_13mjs"]
+[ext_resource type="Script" path="res://scenes/main_menu.gd" id="1_gcw2u"]
+[ext_resource type="PackedScene" uid="uid://bqw7u02v4ap3m" path="res://scenes/telescope_room.tscn" id="2_744w5"]
+[ext_resource type="FontFile" uid="uid://dkhytkij0f5jq" path="res://assets/fonts/at01.ttf" id="4_4kw33"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_87uf2"]
+bg_color = Color(0, 0, 0, 0.501961)
+skew = Vector2(1, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xgujy"]
+bg_color = Color(0, 0, 0, 0.745098)
+skew = Vector2(1, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i22ox"]
+bg_color = Color(0, 0, 0, 0.882353)
+skew = Vector2(1, 0)
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_gcw2u")
+mainGameScene = ExtResource("2_744w5")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 480.0
+color = Color(0.262745, 0.262745, 0.262745, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_13mjs")
+theme_override_font_sizes/font_size = 60
+text = "TELESCOPE
+SIMULATOR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 20
+
+[node name="Start" type="MarginContainer" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_right = 100
+
+[node name="StartButton" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer/Start"]
+layout_mode = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("4_4kw33")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_87uf2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_xgujy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_i22ox")
+text = "start"
+
+[node name="Settings" type="MarginContainer" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_right = 100
+
+[node name="SettingsButton" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer/Settings"]
+layout_mode = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("4_4kw33")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_87uf2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_xgujy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_i22ox")
+text = "settings"
+
+[node name="Quit" type="MarginContainer" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_right = 100
+
+[node name="QuitButton" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer/Quit"]
+layout_mode = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("4_4kw33")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_87uf2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_xgujy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_i22ox")
+text = "quit"
+
+[connection signal="button_up" from="MarginContainer/VBoxContainer/VBoxContainer/Start/StartButton" to="." method="_on_start_button_button_up"]
+[connection signal="button_up" from="MarginContainer/VBoxContainer/VBoxContainer/Quit/QuitButton" to="." method="_on_quit_button_button_up"]
